@@ -148,7 +148,8 @@ export default class WebExtAction {
         apiKey: this.options.apiKey,
         apiSecret: this.options.apiSecret,
         apiUrlPrefix: this.options.apiUrlPrefix,
-        verbose: this.options.verbose
+        verbose: this.options.verbose,
+        timeout: this.options.timeout,
       });
     } catch (e) {
       if (
